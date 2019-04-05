@@ -1,35 +1,122 @@
-header {
-  background-image: url('https://amp.businessinsider.com/images/5ab2a71c5851aebb008b46da-750-563.jpg');
-  height: 100px;
-}
+/* Fonts from Google Fonts - more at https://fonts.google.com */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,700');
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Montserrat', sans-serif;}
-
-h1 {
-  margin-top: 30px;
-  font-size: 40px;
+h1 {Border: 3px solid #20157e;
+  padding-top:  20px;
+  padding-bottom: 20px;
   margin-bottom: 20px;
-}
-p{
-  font-size: 18px;
-}
+  text-align: center;
+  font-family: "Merriweather", serif;
+  font-size: 32px;
+  color: black;
 
-img {
-  Float: left;
-  Margin: 10px;
 }
 
 body {
-  background-color: rgba(98, 141, 239, 0.62);
-  font-family: "Open Sans", sans-serif;
+  background-color: white;
+  font-family: "Montserrat", sans-serif;
   padding: 5px 25px;
   font-size: 18px;
   margin: 0;
-  color: #d08063;
+  color: black;
 }
 
-li {
-  display: inline;
-  font: black;
+li {display: inline;
+  margin-left: 180px;
+  padding-left: 3px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+
+}
+
+h2 {padding-top:  50px;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+  text-align: left;
+  font-family: "Merriweather", serif;
+  font-size: 36px;
+  color: black;
+
+}
+
+h3 {padding-top:  5px;
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+  text-align: left;
+  font-family: "Montserrat",sans-serif;
+  font-size: 18px;
+  color: black;
+
+}
+
+h4 {font-size: 12px;}
+
+
+body {
+  margin: 20px;
+}
+
+.wrapper {
+  padding-top: 60px;
+  display: grid;
+  grid-template-columns: 500px 1000px;
+  grid-gap: 10px;
+  background-color: white;
+  color: white;
+}
+
+.box {
+  background-color: white;
+  color: #20157e;
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 150%;
+}
+
+.some-page-wrapper {
+  margin: 15px;
+  background-color: white;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 1210px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+}
+
+.blue-column {
+  background-color: white;
+  height: 300px;
+  padding-right: 100px;
+}
+
+.green-column {
+  background-color: white;
+  height: 300px;
+  margin-right: 20px;
+}
+
+figure {
+  width:300px;
+  overflow:hidden; 
+  margin:0; 
+  padding-left: 60px;
+  margin-left: 50px;
+
+}
+
+figure img {
+  display:block;
+  width:100%;
+  margin:0 -48.885%;
+  width:166%;
 }
